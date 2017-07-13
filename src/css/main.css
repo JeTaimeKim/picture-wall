@@ -1,0 +1,92 @@
+*{
+	transition: 1s;
+}
+.pictrue{
+	position: relative;
+	width:1200px;
+	height:500px;
+	background-color: #fff;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	overflow: hidden;
+    
+}
+.pic{
+	position: absolute;
+	display: block;
+	width:230px;
+	height:350px;
+	
+	background-color: #eee; 
+	box-shadow: 0 0 1px 1px rgba(0,0,0,.2);
+	text-align:center;
+	cursor: pointer;
+	transform-style: preserve-3d;
+    perspective: 1800px;
+    transform-origin: 0 50%;
+	
+}
+.picback{
+	transform: translateX(230px) rotateY(180deg);
+	
+}
+.img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:auto;
+	height:auto;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	
+}
+
+.img img{
+		width:200px;
+
+}
+
+.backshow{
+	position: absolute;
+	padding-top:25px;
+	left: 0;
+	width:100%;
+	height:100%-25px;
+	background-color: #eee; 
+	text-align:center;
+	transform: rotateY(180deg) translateZ(1px);
+	
+}
+.btn{
+	position: absolute;
+	width:840px;
+	height:20px;
+	top:520px;
+	left:180px;
+	text-align: center;
+}
+.btnCtr{
+	display: inline-block;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	margin:0 10px;
+	background-color: rgba(191,239,255,.6);
+	box-shadow: 0 0 1px 1px rgba(0,0,255,.1);
+	cursor: pointer;
+}
+.center{
+	transform: scale(2.5);
+	background: url('../img/photo.png') center no-repeat ;
+	background-size: 100%;
+}
+
+.back{
+	background-color: rgba(191,239,255,1);
+	background: url(../img/text.png) center no-repeat;
+	background-size: 100%;
+}
