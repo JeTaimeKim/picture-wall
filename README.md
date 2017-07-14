@@ -1,5 +1,4 @@
 # picture-wall
 React照片墙
 
-预览地址：http://htmlpreview.github.io/?https://github.com/JeTaimeKim/picture-wall/blob/master/src/index.html
-# picture-wall
+预览地址：https://jetaimekim.github.io/picture-wall/src/index.html
